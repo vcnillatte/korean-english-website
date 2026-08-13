@@ -15,7 +15,7 @@ export default function InstructorAuthModal({ isOpen, onClose, onSuccess }) {
       setPasscode('');
       onSuccess();
     } else {
-      setErrorMsg('PIN / Kata sandi instruktur salah. (Default: 1234)');
+      setErrorMsg('PIN / Kata sandi instruktur salah.');
     }
   };
 
@@ -48,7 +48,7 @@ export default function InstructorAuthModal({ isOpen, onClose, onSuccess }) {
               autoFocus
               value={passcode}
               onChange={e => setPasscode(e.target.value)}
-              placeholder="Masukkan PIN (Default: 1234)"
+              placeholder="Masukkan PIN"
               style={{
                 width: '100%',
                 padding: '0.75rem',

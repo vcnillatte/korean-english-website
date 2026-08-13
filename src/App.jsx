@@ -104,12 +104,9 @@ export default function App() {
         setApiKey={store.setApiKey}
       />
 
-      {/* Footer */}
-      <footer style={{ marginTop: 'auto', paddingTop: '1.5rem', borderTop: '1px solid rgba(122, 106, 94, 0.15)', textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-cocoa)' }}>
+      {/* Cleaned Footer */}
+      <footer style={{ marginTop: 'auto', paddingTop: '1.5rem', borderTop: '1px solid rgba(122, 106, 94, 0.15)', textAlign: 'center', fontSize: '0.9rem', color: 'var(--text-cocoa)' }}>
         <p>☕ <strong>HangulBridge</strong> — Cafe English & Korean Practice App</p>
-        <p style={{ fontSize: '0.75rem', marginTop: '0.2rem', opacity: 0.8 }}>
-          Powered by React, Spaced Repetition Logic & Gemini AI
-        </p>
       </footer>
     </div>
   );
