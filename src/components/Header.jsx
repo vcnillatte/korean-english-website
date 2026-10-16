@@ -90,17 +90,16 @@ export default function Header({
           onClick={handleInstructorClick}
           className={`btn-toggle ${isInstructorMode ? 'active' : ''}`}
           title={isInstructorMode ? "Kembali ke Mode Murid" : "Akses Instruktur (Perlu PIN Guru)"}
-          style={{ padding: '0.4rem 0.65rem' }}
         >
           {isInstructorMode ? (
             <>
               <BookOpen size={16} />
-              <span style={{ fontSize: '0.8rem' }}>Exit Admin</span>
+              <span>Exit Admin</span>
             </>
           ) : (
             <>
               <Lock size={16} />
-              <span style={{ fontSize: '0.75rem', opacity: 0.8 }}>Guru</span>
+              <span>Guru</span>
             </>
           )}
         </button>
