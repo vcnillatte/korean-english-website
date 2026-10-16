@@ -27,9 +27,11 @@ export default function Header({
     <header className="header-bar">
       {/* Brand & Title */}
       <div className="logo-area">
-        <div className="logo-icon">
-          <Coffee size={24} color="#2D241E" />
-        </div>
+        <img
+          src="/logo.png"
+          alt="HangulBridge Logo"
+          className="logo-icon-img"
+        />
         <div>
           <h1 className="logo-title">HangulBridge</h1>
           <p className="logo-subtitle">Cafe English & Korean Sentence Practice</p>
